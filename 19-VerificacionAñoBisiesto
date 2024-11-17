@@ -1,0 +1,7 @@
+# Escribe un programa que determine si un año ingresado por el usuario es bisiesto o no
+
+Año=int(input('Por favor introduce a continuación un año para comprobar si es bisiesto: '))
+if Año%4==0:
+  print('Sí es bisiesto')
+else:
+  print('No es bisiesto')
